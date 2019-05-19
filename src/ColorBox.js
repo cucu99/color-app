@@ -30,7 +30,7 @@ export default class ColorBox extends Component {
           />
           <div className={`copy-msg ${copied && 'show'}`}>
             <h1>copied!</h1>
-            <p>{background}</p>
+            <p>{background.toUpperCase()}</p>
           </div>
           <div className="copy-container">
             <div className="box-content">
