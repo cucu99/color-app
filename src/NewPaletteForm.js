@@ -88,6 +88,7 @@ class NewPaletteForm extends React.Component {
     this.updateCurrentColor = this.updateCurrentColor.bind(this);
     this.addNewColor = this.addNewColor.bind(this);
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   componentDidMount() {
@@ -124,6 +125,17 @@ class NewPaletteForm extends React.Component {
     this.setState({ open: false });
   };
 
+  handleSubmit() {
+    let newName = 'New Test Palette';
+    const newPalette = {
+      paletteName: newName,
+      id: newName.toLowerCase().replace(/ /g, '-'),
+      colors: this.state.colors
+    };
+    this.props.savePalette(newPalette);
+    this.props.history.push('/');
+  }
+
   updateCurrentColor(newColor) {
     this.setState({ currentColor: newColor.hex });
   }
@@ -137,6 +149,7 @@ class NewPaletteForm extends React.Component {
         <CssBaseline />
         <AppBar
           position="fixed"
+          color="default"
           className={classNames(classes.appBar, {
             [classes.appBarShift]: open
           })}
@@ -151,8 +164,15 @@ class NewPaletteForm extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" noWrap>
-              Persistent drawer
+              Create a Palette
             </Typography>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={this.handleSubmit}
+            >
+              Save Palette
+            </Button>
           </Toolbar>
         </AppBar>
         <Drawer
