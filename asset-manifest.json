@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/colorapp/static/css/main.05c89b40.chunk.css",
-    "main.js": "/colorapp/static/js/main.914a943b.chunk.js",
-    "main.js.map": "/colorapp/static/js/main.914a943b.chunk.js.map",
-    "runtime~main.js": "/colorapp/static/js/runtime~main.a94f96ec.js",
-    "runtime~main.js.map": "/colorapp/static/js/runtime~main.a94f96ec.js.map",
-    "static/css/2.e337d257.chunk.css": "/colorapp/static/css/2.e337d257.chunk.css",
-    "static/js/2.db3520d8.chunk.js": "/colorapp/static/js/2.db3520d8.chunk.js",
-    "static/js/2.db3520d8.chunk.js.map": "/colorapp/static/js/2.db3520d8.chunk.js.map",
-    "index.html": "/colorapp/index.html",
-    "precache-manifest.6eb4c74640c6acac9c82ad251f2e3122.js": "/colorapp/precache-manifest.6eb4c74640c6acac9c82ad251f2e3122.js",
-    "service-worker.js": "/colorapp/service-worker.js",
-    "static/css/2.e337d257.chunk.css.map": "/colorapp/static/css/2.e337d257.chunk.css.map",
-    "static/css/main.05c89b40.chunk.css.map": "/colorapp/static/css/main.05c89b40.chunk.css.map",
-    "static/media/bg.svg": "/colorapp/static/media/bg.e1069365.svg"
+    "main.css": "/ColorApp/static/css/main.05c89b40.chunk.css",
+    "main.js": "/ColorApp/static/js/main.1ecd34de.chunk.js",
+    "main.js.map": "/ColorApp/static/js/main.1ecd34de.chunk.js.map",
+    "runtime~main.js": "/ColorApp/static/js/runtime~main.df237937.js",
+    "runtime~main.js.map": "/ColorApp/static/js/runtime~main.df237937.js.map",
+    "static/css/2.e337d257.chunk.css": "/ColorApp/static/css/2.e337d257.chunk.css",
+    "static/js/2.db3520d8.chunk.js": "/ColorApp/static/js/2.db3520d8.chunk.js",
+    "static/js/2.db3520d8.chunk.js.map": "/ColorApp/static/js/2.db3520d8.chunk.js.map",
+    "index.html": "/ColorApp/index.html",
+    "precache-manifest.5be7dd9139ac084fa10a41589be113c6.js": "/ColorApp/precache-manifest.5be7dd9139ac084fa10a41589be113c6.js",
+    "service-worker.js": "/ColorApp/service-worker.js",
+    "static/css/2.e337d257.chunk.css.map": "/ColorApp/static/css/2.e337d257.chunk.css.map",
+    "static/css/main.05c89b40.chunk.css.map": "/ColorApp/static/css/main.05c89b40.chunk.css.map",
+    "static/media/bg.svg": "/ColorApp/static/media/bg.e1069365.svg"
   }
 }
