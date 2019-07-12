@@ -2,7 +2,7 @@
   "name": "color-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://cucu99.github.io/ColorApp/",
+  "homepage": "https://cucu99.github.io/color-app/",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
