@@ -150,6 +150,7 @@ class NewPaletteForm extends React.Component {
             colors={colors}
             removeColor={this.removeColor}
             onSortEnd={this.onSortEnd}
+            distance={20}
           />
         </main>
       </div>
