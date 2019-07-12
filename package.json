@@ -2,6 +2,7 @@
   "name": "color-app",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://cucu99.github.io/ColorApp/",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
@@ -10,6 +11,7 @@
     "chroma-js": "^2.0.3",
     "clsx": "^1.0.4",
     "emoji-mart": "^2.11.1",
+    "gh-pages": "^2.0.1",
     "rc-slider": "^8.6.11",
     "react": "^16.8.6",
     "react-color": "^2.17.3",
@@ -25,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
