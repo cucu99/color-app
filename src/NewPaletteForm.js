@@ -1,4 +1,5 @@
 import React from 'react';
+import seedColors from './colorSeed';
 import arrayMove from 'array-move';
 import PaletteFormNav from './PaletteFormNav';
 import ColorPickerForm from './ColorPickerForm';
@@ -21,7 +22,7 @@ class NewPaletteForm extends React.Component {
     super(props);
     this.state = {
       open: true,
-      colors: this.props.palettes[0].colors
+      colors: seedColors[0].colors
     };
     this.addNewColor = this.addNewColor.bind(this);
     this.addRandomColor = this.addRandomColor.bind(this);
